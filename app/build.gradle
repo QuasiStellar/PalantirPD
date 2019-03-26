@@ -5,7 +5,7 @@ android {
     buildToolsVersion '28.0.3'
 
     defaultConfig {
-        applicationId "com.github.quasistellar.otiluke"
+        applicationId "com.quasistellar.palantir"
         minSdkVersion 8
         targetSdkVersion 26
     }
