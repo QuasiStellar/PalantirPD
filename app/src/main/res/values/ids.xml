@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+    <!-- app_id -->
+    <string name="app_id" translatable="false">472262524936</string>
+    <!-- package_name -->
+    <string name="package_name" translatable="false">com.quasistellar.otiluke</string>
+    <!-- achievement Green Stones -->
+    <string name="achievement_green_stones" translatable="false">CgkIiICpqN8NEAIQAA</string>
+</resources>
