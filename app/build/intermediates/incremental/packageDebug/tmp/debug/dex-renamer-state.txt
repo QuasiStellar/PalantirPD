@@ -1,4 +1,4 @@
-#Sun Apr 14 00:47:55 MSK 2019
+#Sun Apr 14 20:42:56 MSK 2019
 base.0=D\:\\Pierre\\Palantir_release\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

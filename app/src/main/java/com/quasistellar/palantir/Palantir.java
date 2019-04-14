@@ -37,22 +37,6 @@ public class Palantir extends Game {
 
 	public Palantir() {
 		super(TitleScene.class);
-
-		// 0.2.4
-		com.watabou.utils.Bundle
-				.addAlias(
-						com.quasistellar.palantir.items.weapon.enchantments.Shock.class,
-						"com.github.dachhack.sprout.items.weapon.enchantments.Piercing");
-		com.watabou.utils.Bundle
-				.addAlias(
-						com.quasistellar.palantir.items.weapon.enchantments.Shock.class,
-						"com.github.dachhack.sprout.items.weapon.enchantments.Swing");
-
-		com.watabou.utils.Bundle
-				.addAlias(
-						com.quasistellar.palantir.items.scrolls.ScrollOfMagicalInfusion.class,
-						"com.github.dachhack.sprout.items.scrolls.ScrollOfWeaponUpgrade");
-
 	}
 
 	@SuppressWarnings("deprecation")

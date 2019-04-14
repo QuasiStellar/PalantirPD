@@ -966,14 +966,14 @@ public class Hero extends Char {
 			IronKey key = this.belongings.getKey(IronKey.class, Dungeon.depth);
 			key.detach(this.belongings.backpack);
 		}
-		while (this.belongings.getKey(IronKey.class, Dungeon.depth+1) != null) {
-			IronKey key = this.belongings.getKey(IronKey.class, Dungeon.depth+1);
-			key.detach(this.belongings.backpack);
-		}
-		while (this.belongings.getKey(IronKey.class, Dungeon.depth-1) != null) {
-			IronKey key = this.belongings.getKey(IronKey.class, Dungeon.depth-1);
-			key.detach(this.belongings.backpack);
-		}
+//		while (this.belongings.getKey(IronKey.class, Dungeon.depth+1) != null) {
+//			IronKey key = this.belongings.getKey(IronKey.class, Dungeon.depth+1);
+//			key.detach(this.belongings.backpack);
+//		}
+//		while (this.belongings.getKey(IronKey.class, Dungeon.depth-1) != null) {
+//			IronKey key = this.belongings.getKey(IronKey.class, Dungeon.depth-1);
+//			key.detach(this.belongings.backpack);
+//		}
 
 		if (!Dungeon.level.forcedone && 
 			 Dungeon.dewDraw && (					 
@@ -1059,18 +1059,18 @@ public class Hero extends Char {
 		int stairs = action.dst;
 		if (pos == stairs && pos == Dungeon.level.entrance) {
 
-			while (this.belongings.getKey(IronKey.class, Dungeon.depth) != null) {
-				IronKey key = this.belongings.getKey(IronKey.class, Dungeon.depth);
-				key.detach(this.belongings.backpack);
-			}
-			while (this.belongings.getKey(IronKey.class, Dungeon.depth+1) != null) {
-				IronKey key = this.belongings.getKey(IronKey.class, Dungeon.depth+1);
-				key.detach(this.belongings.backpack);
-			}
-			while (this.belongings.getKey(IronKey.class, Dungeon.depth-1) != null) {
-				IronKey key = this.belongings.getKey(IronKey.class, Dungeon.depth-1);
-				key.detach(this.belongings.backpack);
-			}
+//			while (this.belongings.getKey(IronKey.class, Dungeon.depth) != null) {
+//				IronKey key = this.belongings.getKey(IronKey.class, Dungeon.depth);
+//				key.detach(this.belongings.backpack);
+//			}
+//			while (this.belongings.getKey(IronKey.class, Dungeon.depth+1) != null) {
+//				IronKey key = this.belongings.getKey(IronKey.class, Dungeon.depth+1);
+//				key.detach(this.belongings.backpack);
+//			}
+//			while (this.belongings.getKey(IronKey.class, Dungeon.depth-1) != null) {
+//				IronKey key = this.belongings.getKey(IronKey.class, Dungeon.depth-1);
+//				key.detach(this.belongings.backpack);
+//			}
 
 			if (Dungeon.depth == 1) {
 

@@ -46,12 +46,6 @@ public class TitleScene extends PixelScene {
 	private static final String TXT_HIGHSCORES = "Rankings";
 	private static final String TXT_BADGES = "Badges";
 	private static final String TXT_ABOUT = "About";
-	private static final String TXT_LOAD = "Game Load";
-	private static final String TXT_LDESC = "Do you want to load your progress?";
-	private static final String TXT_YES = "Yes";
-	private static final String TXT_NG = "Start new game";
-	private static final String TXT_NO = "No";
-	private static final String TXT_REALLY = "Really?";
 
 
 	@Override
@@ -134,40 +128,7 @@ public class TitleScene extends PixelScene {
 		DashboardItem btnPlay = new DashboardItem(TXT_PLAY, 0) {
 			@Override
 			protected void onClick() {
-				//Palantir.switchNoFade(StartScene.class);
-				GamesInProgress.Info info = GamesInProgress.check(HeroClass.WARRIOR);
-				if (info != null) {
-					TitleScene.this.add(new WndOptions(TXT_LOAD, TXT_LDESC, TXT_YES, TXT_NG) {
-						@Override
-						protected void onSelect(int index) {
-							if (index == 0) {
-								InterlevelScene.mode = InterlevelScene.Mode.CONTINUE;
-								Game.switchScene(InterlevelScene.class);
-							} else {
-								TitleScene.this.add(new WndOptions(TXT_REALLY, "", TXT_YES, TXT_NO) {
-									@Override
-									protected void onSelect(int index) {
-										if (index == 0) {
-											Dungeon.hero = null;
-											InterlevelScene.mode = InterlevelScene.Mode.DESCEND;
-											Game.switchScene(InterlevelScene.class);
-										}
-									};
-								});
-							}
-						};
-					});
-				} else {
-					Dungeon.hero = null;
-					InterlevelScene.mode = InterlevelScene.Mode.DESCEND;
-
-					if (Palantir.intro()) {
-						Palantir.intro(false);
-						Game.switchScene(IntroScene.class);
-					} else {
-						Game.switchScene(InterlevelScene.class);
-					}
-				}
+				Palantir.switchNoFade(LevelScene.class);
 			}
 		};
 		add(btnPlay);
