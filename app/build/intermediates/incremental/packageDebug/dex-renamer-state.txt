@@ -1,0 +1,7 @@
+#Sun Nov 18 15:24:54 MSK 2018
+base.0=D\:\\Pierre\\Otiluke\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_83783f87cdb7c8e8def63c03f474dd5ea8a4a918
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\Pierre\\Otiluke\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_82324da0543275bd0736f1d522e3e7937ceea457\\classes.dex
+base.1=D\:\\Pierre\\Otiluke\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_82324da0543275bd0736f1d522e3e7937ceea457
+file.0=D\:\\Pierre\\Otiluke\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_83783f87cdb7c8e8def63c03f474dd5ea8a4a918\\classes.dex

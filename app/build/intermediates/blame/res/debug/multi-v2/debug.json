@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Pierre\\Palantir_release\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\Pierre\\Palantir_release\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "1",
+                        "startOffsets": "54",
+                        "endColumns": "42",
+                        "endOffsets": "95"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "217",
+                        "endColumns": "45",
+                        "endOffsets": "258"
+                    }
+                },
+                {
+                    "source": "D:\\Pierre\\Palantir_release\\app\\src\\main\\res\\values\\ids.xml",
+                    "from": {
+                        "startLines": "11,7,9",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "395,175,270",
+                        "endColumns": "92,68,86",
+                        "endOffsets": "483,239,352"
+                    },
+                    "to": {
+                        "startLines": "2,3,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,148,263",
+                        "endColumns": "92,68,86",
+                        "endOffsets": "143,212,345"
+                    }
+                }
+            ]
+        }
+    ]
+}

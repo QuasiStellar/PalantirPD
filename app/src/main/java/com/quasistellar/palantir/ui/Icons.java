@@ -64,7 +64,7 @@ public enum Icons {
 			icon.frame(icon.texture.uvRect(64, 44, 80, 60));
 			break;
 		case ORIGINS:
-			icon.frame(icon.texture.uvRect(96, 44, 116, 64));
+			icon.frame(icon.texture.uvRect(96, 44, 110, 58));
 			break;
 		case WARRIOR:
 			icon.frame(icon.texture.uvRect(0, 29, 16, 45));

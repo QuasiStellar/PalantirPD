@@ -1,0 +1,83 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:2:1-40:12
+	package
+		ADDED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:3:2-37
+		INJECTED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:5:2-27
+		INJECTED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:4:2-27
+		INJECTED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml
+	android:installLocation
+		ADDED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:6:2-32
+uses-permission#android.permission.VIBRATE
+ADDED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:8:22-63
+uses-sdk
+ADDED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:10:2-43
+INJECTED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:10:2-43
+INJECTED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:10:2-43
+INJECTED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:10:2-43
+INJECTED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:10:2-43
+	android:targetSdkVersion
+		ADDED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:10:12-41
+		INJECTED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml
+		ADDED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:10:2-43
+		INJECTED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:12:2-13:40
+	android:glEsVersion
+		ADDED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:13:6-38
+supports-screens
+ADDED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:15:2-18:35
+	android:largeScreens
+		ADDED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:18:6-33
+	android:smallScreens
+		ADDED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:16:6-34
+	android:normalScreens
+		ADDED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:17:6-34
+application
+ADDED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:21:2-36:16
+	android:label
+		ADDED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:23:3-35
+	android:icon
+		ADDED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:22:3-39
+	android:allowBackup
+		ADDED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:25:3-30
+	android:theme
+		ADDED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:24:3-67
+activity#com.quasistellar.palantir.Palantir
+ADDED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:26:3-34:14
+	android:screenOrientation
+		ADDED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:29:4-40
+	android:label
+		ADDED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:27:4-36
+	android:name
+		ADDED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:28:4-53
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:30:4-33:20
+action#android.intent.action.MAIN
+ADDED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:31:5-57
+	android:name
+		ADDED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:31:13-54
+category#android.intent.category.LAUNCHER
+ADDED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:32:5-65
+	android:name
+		ADDED from D:\Pierre\Palantir_release\app\src\main\AndroidManifest.xml:32:15-62

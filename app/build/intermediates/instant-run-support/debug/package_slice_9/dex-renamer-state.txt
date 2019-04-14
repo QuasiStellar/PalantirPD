@@ -1,0 +1,4 @@
+#Sun Nov 18 15:28:05 MSK 2018
+base.0=D\:\\Pierre\\Otiluke\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9
+renamed.0=classes.dex
+file.0=D\:\\Pierre\\Otiluke\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9\\classes.dex

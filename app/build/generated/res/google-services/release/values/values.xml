@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">472262524936-rltqejglij487607nm66ulc892d9fhck.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://palantir-14401836.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">472262524936</string>
+    <string name="google_api_key" translatable="false">AIzaSyAx3qlDtVjO4nuwAfZG6PAuUeDOuKyrP6w</string>
+    <string name="google_app_id" translatable="false">1:472262524936:android:7ee8707fe4481936</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAx3qlDtVjO4nuwAfZG6PAuUeDOuKyrP6w</string>
+    <string name="google_storage_bucket" translatable="false">palantir-14401836.appspot.com</string>
+    <string name="project_id" translatable="false">palantir-14401836</string>
+</resources>
